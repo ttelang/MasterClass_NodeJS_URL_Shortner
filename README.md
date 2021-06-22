@@ -7,11 +7,27 @@
 nvm install 14.17.1
 ```
 
-### Express Setup 
+### Setting up Express Library 
+Library for creating app servers using nodejs. 
 
-```
+#### Installing Express
+
+```bash
 npm install express
 ```
+
+```javascript
+
+// server.js
+const express = require('express')
+
+const app = express()
+app.get('/', (req, res) 
+app.listen(4445, () => {
+    console.log('Server started on http://localhost:4445')
+})
+```
+
 ### Database Setup 
 
 Enter PSQL for Postgres 
