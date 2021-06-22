@@ -1,6 +1,17 @@
 
 ## Development 
+### NodeJS Setup 
 
+
+```
+nvm install 14.17.1
+```
+
+### Express Setup 
+
+```
+npm install express
+```
 ### Database Setup 
 
 Enter PSQL for Postgres 
