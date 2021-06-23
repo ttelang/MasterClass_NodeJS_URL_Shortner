@@ -33,7 +33,6 @@ async function createCustomShortCode(code, link) {
   }
   return await URLs.create({
     id: id,
-    code: code,
     link: link,
   });
 }
