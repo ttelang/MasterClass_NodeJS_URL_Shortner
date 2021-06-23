@@ -12,10 +12,6 @@ const URLs = db.define('urls', {
         primaryKey: true,
         type: DataTypes.BIGINT
     },
-    code: {
-        type: DataTypes.STRING(7),
-        unique: true
-    },
     link: {
         type: DataTypes.TEXT,
         allowNull: false
