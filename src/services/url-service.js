@@ -15,7 +15,6 @@ async function createRandomShortCode(link) {
   }
   return await URLs.create({
     id: genCode,
-    code: int2radix64(genCode),
     link: link,
   });
 }
